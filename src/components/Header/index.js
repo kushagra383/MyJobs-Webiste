@@ -45,7 +45,7 @@ export default function Header(props) {
         {props.authToken && (
           <button
           className={classes.button}
-          onClick={handleLogoutC}
+          onClick={handleLogoutClick}
           style={{
             top: '25px',
             left: '1245px',
