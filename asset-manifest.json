@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MyJobs-Webiste/static/css/main.7fd17f57.css",
+    "main.js": "/MyJobs-Webiste/static/js/main.da304c81.js",
+    "static/media/girl.png": "/MyJobs-Webiste/static/media/girl.8ae8d88a4dfe703878db.png",
+    "static/media/goldline.png": "/MyJobs-Webiste/static/media/goldline.023448b096f111346164.png",
+    "static/media/kanba.png": "/MyJobs-Webiste/static/media/kanba.cdcf3cccc9f34c8c6918.png",
+    "static/media/velocity.png": "/MyJobs-Webiste/static/media/velocity.cc2e2b9520e12f603ed6.png",
+    "static/media/writing.svg": "/MyJobs-Webiste/static/media/writing.5fa57c31ef5f5e4ae6514cb19e33a355.svg",
+    "static/media/curriculum.svg": "/MyJobs-Webiste/static/media/curriculum.294eb0231a8136f24592314b26666684.svg",
+    "index.html": "/MyJobs-Webiste/index.html",
+    "static/media/prev.svg": "/MyJobs-Webiste/static/media/prev.87fd042c2c77ac80db5e8778c960ecc1.svg",
+    "static/media/next.svg": "/MyJobs-Webiste/static/media/next.8ac566f702d7449e4d533a6874c6743c.svg",
+    "static/media/close-icon.svg": "/MyJobs-Webiste/static/media/close-icon.c7e9ffb05673d0fb15d0e9ee5c6076aa.svg",
+    "static/media/location-icon.svg": "/MyJobs-Webiste/static/media/location-icon.059a70e34d217d96edeb775ccef1c011.svg",
+    "static/media/arrow.svg": "/MyJobs-Webiste/static/media/arrow.7e1d16da720fd631e3b1c3aa2954f1c7.svg",
+    "static/media/logo.svg": "/MyJobs-Webiste/static/media/logo.d9f00ff4c9962900482730b66a373db3.svg",
+    "static/media/home-icon.svg": "/MyJobs-Webiste/static/media/home-icon.4c058c28224c36bd754fc438c140f318.svg",
+    "main.7fd17f57.css.map": "/MyJobs-Webiste/static/css/main.7fd17f57.css.map",
+    "main.da304c81.js.map": "/MyJobs-Webiste/static/js/main.da304c81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fd17f57.css",
+    "static/js/main.da304c81.js"
+  ]
+}
