@@ -1,0 +1,31 @@
+.container {
+  padding: 0 70px;
+  background: transparent linear-gradient(260deg, #303f60 0%, #1a253c 100%) 0%
+    0% no-repeat padding-box;
+  height: 270px;
+}
+
+.main {
+  display: flex;
+  margin: 12px 0 0 50px;
+  height: 15px;
+  align-items: center;
+}
+.box {
+  width: 100%;
+  background: #edf6ff;
+  box-sizing: border-box;
+  padding: 0 70px;
+  position: absolute;
+}
+.innerBox {
+  position: relative;
+  top: -50px;
+  left: 52px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  background: transparent;
+  box-sizing: border-box;
+}

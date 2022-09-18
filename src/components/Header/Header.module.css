@@ -1,0 +1,6 @@
+.header {
+  height: 8vh;
+  display: flex;
+  background-color: "transparent linear-gradient(260deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box";
+  justify-content: space-between;
+}

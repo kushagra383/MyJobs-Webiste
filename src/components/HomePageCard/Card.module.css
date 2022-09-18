@@ -1,0 +1,19 @@
+.card {
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    width:15vw;
+  }
+  .p1{
+    color:#43AFFF;
+    text-transform: capitalize;
+    font-size:27px;
+    font-family:Helvetica Neue;
+  }
+  .p2{
+    color:'#303F60';
+    font-size:14px;
+    font-family:Helvetica Neue;
+
+  }

@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import JobDetailsPage from './pages/JobDetailsPage';
+import Homepage from './pages/HomePage';
+import React, { useState } from 'react';
 
-function App() {
+const App = () => {
+  const [authToken, setAuthToken] = useState('');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Switch>
+        <Route exact path="/">
+          <Homepage authToken={authToken} />
+        </Route>
+        <Route path="/login">
+          <LoginPage authToken={authToken} setAuthToken={setAuthToken} />
+        </Route>
+        <Route path="/jobs">
+          <JobDetailsPage authToken={authToken} setAuthToken={setAuthToken} />
+        </Route>
+      </Switch>
     </div>
   );
-}
+};
 
 export default App;

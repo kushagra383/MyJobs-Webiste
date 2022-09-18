@@ -1,0 +1,58 @@
+.container {
+  padding: 0 70px;
+  background: transparent linear-gradient(260deg, #303f60 0%, #1a253c 100%) 0%
+    0% no-repeat padding-box;
+  height: 464px;
+}
+
+.main {
+  border-top: 1px solid grey;
+  margin: 12px 0 0 0;
+}
+
+.box {
+  display: flex;
+  margin: 85px 0 0 0;
+  justify-content: space-around;
+}
+
+.welcome {
+  color: white;
+  font-size: 60px;
+  margin: -8px 0 0 0;
+}
+.secondaryMain {
+  width: 148px;
+  background: #42afff;
+  border-radius: 5px;
+  padding: 13px 30px 2px 30px;
+  margin: 40px 0 0 0;
+  cursor: pointer;
+}
+.beforeLogo{
+  width: 100%;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EDF6FF;
+}
+.trust{
+  text-align: left;
+   width: 100%;
+   margin: 0 0 40px 300px; 
+   font-size: 20px;
+   font-weight:500;
+}
+.logos{
+  margin: 0 0 0 140px;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+.logo{
+  margin: 10vh;
+}
